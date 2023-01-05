@@ -17,9 +17,10 @@ const Footer = () => (
         <h4 className="font-poppins font-medium text-[18px] leading-[27px] text-white">
           {footerLink.title}
         </h4>
-        <ul>
+        <ul className="list-none mt-4">
           {footerLink.links.map((link, index) => (
-            <li key={link.name} className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer`}>
+            <li key={link.name} className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer 
+            ${index !== footerLink.links.length - 1 ? 'mb-4' : 'mb-0'}`}>
             {link.name}
 
             </li>
@@ -31,6 +32,12 @@ const Footer = () => (
 
       </div>
 
+      </div>
+
+      <div>
+        <p className="font-poppins font-medium text-[18px] leading-[27px] text-white">
+        2021 HooBank. All Rights Reserved.
+        </p>
       </div>
     </section>
   )
