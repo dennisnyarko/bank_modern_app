@@ -2,5 +2,5 @@
 
 This is a fully responsive front-end website using ReactJS & Tailwind CSS 
 
-* Design was gotten from Bubble.io with tutorial from youtube *
- 
+-- Design was gotten from Bubble.io with tutorial from youtube
+-- Personal modifications were included on the website
